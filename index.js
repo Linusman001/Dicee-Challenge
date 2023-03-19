@@ -1,6 +1,3 @@
-alert("Welcome!")
-alert("Refresh to Play!")
-
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 if (randomNumber1 === 1) {
@@ -54,3 +51,9 @@ else if (randomNumber1 === randomNumber2) {
 else{
     document.querySelector("h1").innerHTML = "Player 2 wins!🚩";
 }
+
+
+setTimeout(()=> {
+         document.querySelector("h1").innerHTML = "Refresh Me!";
+      }
+      ,3000);
