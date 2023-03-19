@@ -1,3 +1,6 @@
+alert("Welcome!")
+alert("Refresh to Play!")
+
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 if (randomNumber1 === 1) {
